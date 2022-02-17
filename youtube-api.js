@@ -1,6 +1,6 @@
 require("dotenv").config();	// https://www.daleseo.com/js-dotenv/
 const axios = require('axios');
-const {log} = require('./utils/log');;
+const {log} = require('./utils/console-functions');;
 
 const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
 const UTEKO_ID = process.env.UTEKO_ID;

@@ -1,4 +1,4 @@
-const { log, timer, timerEnd } = require('./utils/log');
+const { log, timer, timerEnd } = require('./utils/console-functions');
 
 function makePromise() {
     return new Promise((resolve, reject) => {
